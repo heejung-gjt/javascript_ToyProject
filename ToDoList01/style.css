@@ -1,0 +1,85 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'ubuntu';
+    list-style: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(206, 199, 206);
+}
+.box{
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header{
+    background: rgb(238, 195, 255);
+    background: linear-gradient(90deg, rgba(247, 193, 216, 0.769) 4%, rgba(240, 124, 201, 0.725) 49%, rgba(219, 166, 209, 0.432) 100%, rgba(242, 157, 235, 0.752) 100%, rgb(225, 150, 218) 100%);
+}
+.header__name{
+    color: whitesmoke;
+    padding: 20px;
+}
+.contents{
+    background-color: whitesmoke;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 30px 5px 5px 10px;
+    font-size: 18px;
+}
+.lists__delete{
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.items__lines{
+    width:80%;height: 1px;
+    margin: 0 auto;
+    background-color:rgba(51, 51, 51, 0.316);
+}
+.fa-trash-alt{
+    transition: all 300ms;
+}
+.fa-trash-alt:hover{
+    transform: scale(1.1);
+    color: tomato;
+}
+
+.footer{
+    background: rgb(238, 195, 255);
+    background: linear-gradient(90deg, rgba(247, 193, 216, 0.769) 4%, rgba(240, 124, 201, 0.725) 49%, rgba(219, 166, 209, 0.432) 100%, rgba(242, 157, 235, 0.752) 100%, rgb(225, 150, 218) 100%);
+}
+.texts{
+    display: block;
+    width: 100%;
+    height:30px ;
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.fa-plus{
+    width: 20px;height: 20px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50%;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.fa-plus:hover{
+    background-color: dodgerblue ;
+    transform: scale(1.1);
+}
