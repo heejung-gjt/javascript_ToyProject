@@ -17,24 +17,29 @@
     <section id="section">
         <section class="fields">
             <!-- 모달창 -->
-            <div class="modal__bg">
-            <div class="modal remove" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Modal title</h5>
-                      <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            <form action=".">
+              <div class="modal__bg">
+                <div class="modal remove" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Write To Do</h5>
+                          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                        </div>
+                        <div class="modal-body">
+                          <article class="modal-WriteToDo">
+                            <textarea name="textarea" id="textarea" cols="60" rows="15"></textarea>
+                          </article>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+                          <button type="button" class="btn btn-primary">Add</button>
+                        </div>
+                      </div>
                     </div>
-                    <div class="modal-body">
-                      <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
                 </div>
-            </div>
+              </div>
+            </form>  
 
         </section>
         <!-- click new page -->
